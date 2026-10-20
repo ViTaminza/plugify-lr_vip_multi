@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/untrustedmodders/plugify/refs/heads/main/schemas/plugin.schema.json",
+	"version": "${LR_VIP_MULTI_VERSION}",
+	"name": "lr_vip_multi",
+	"description": "[LR][VIP] Multi: registers the VIP feature 'LrBoost' (VIP_BOOL, TOGGLABLE; the per-group value of groups.ini is a decimal) and multiplies the experience of a kill by that value for VIPs. Ported from the Pisex Levels Ranks module LR_VIP_Multi. Requires the levels_ranks and vip cores; no exported methods.",
+	"author": "Pisex, ported to Plugify",
+	"website": "https://github.com/untrustedmodders/plugify",
+	"license": "GPL-3.0",
+	"entry": "bin/lr_vip_multi",
+	"platforms": [],
+	"language": "cpp",
+	"dependencies": [
+		{
+			"name": "s2sdk",
+			"constraints": ">=2.18.2"
+		},
+		{
+			"name": "levels_ranks",
+			"constraints": ">=1.0.0"
+		},
+		{
+			"name": "vip",
+			"constraints": ">=1.0.0"
+		},
+		{
+			"name": "hudmenu",
+			"constraints": ">=1.0.0",
+			"optional": true
+		}
+	],
+	"methods": []
+}
