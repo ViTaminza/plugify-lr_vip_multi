@@ -11,9 +11,6 @@
         /* vip binding slots (filled by the plugify module from the vip plugin) */
         __vip_*;
 
-        /* hudmenu binding slots (defined by hudmenu_bindings, PUBLIC-linked through pisexcompat) */
-        __hudmenu_*;
-
         /* No exported methods: lr_vip_multi exposes nothing to other plugins. */
 
     local: *;
